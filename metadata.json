@@ -1,0 +1,7 @@
+{
+  "name": "Osteria Fiammetta - Hearth & Kitchen",
+  "description": "Artisanal restaurant menu and hearth dining experience featuring seasonal starters, fresh handmade pasta, wood-fired mains, decadent desserts, and craft cocktails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
