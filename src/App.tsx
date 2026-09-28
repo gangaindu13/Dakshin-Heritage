@@ -12,6 +12,7 @@ import { ContactSection } from './components/ContactSection.tsx';
 import { Footer } from './components/Footer.tsx';
 import { DishModal } from './components/DishModal.tsx';
 import { OrderTray } from './components/OrderTray.tsx';
+import { Chatbot } from './components/Chatbot.tsx';
 import { MENU_ITEMS } from './data/menuData.ts';
 import { MenuItem, CartItem } from './types.ts';
 
@@ -143,6 +144,9 @@ export default function App() {
           scrollToSection('contact');
         }}
       />
+
+      {/* n8n AI Concierge Chatbot */}
+      <Chatbot />
     </div>
   );
 }
